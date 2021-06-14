@@ -37,7 +37,20 @@ button {
 
 /* Buttons */
 
-/* INSERT BUTTON STYLES HERE */
+.btn {
+  border: none;
+  border-radius: 3px;
+}
+
+.orange-btn {
+  background-color: #c05326;
+  color: #fff;
+}
+
+.white-btn {
+  background-color: #fff;
+  color: #c05326;
+}
 
 /* Alert */
 
@@ -67,7 +80,7 @@ button {
 /* Jumbotron */
 
 .jumbotron {
-  background-image: url("../images/header.jpg");
+  background-image: url("../images/header-bike.jpg");
   border-radius: 0;
   color: #fff;
 }
