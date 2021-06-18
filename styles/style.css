@@ -85,6 +85,31 @@ button {
   color: #fff;
 }
 
+/*Flexbox*/
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.flex-container p:first-child {
+  background-color: #ddd;
+}
+
+.flex-container p:last-child {
+  border: 1px solid #ddd;
+}
+
+.flex-container p {
+  border: solid 1px #dccdc6;
+  height: 150px;
+  padding: 2.5em;
+  width: 150px;
+}
+
 /* Headings */
 
 .heading-underline {
